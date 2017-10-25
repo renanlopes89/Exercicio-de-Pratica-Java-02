@@ -56,7 +56,7 @@ public class Exercicio_02 extends JFrame{
 		label_valorC.setBounds(20,110,290,25);
 		
 		pane.add(calcular);
-		calcular.setBounds(20,250,140,50);
+		calcular.setBounds(20,250,300,50);
 		calcular.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent e){
 				a = Double.parseDouble(valor_a.getText());
